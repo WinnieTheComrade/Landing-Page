@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    background-color: #1f2937;
+    margin: 0;
+    border: 0;
+    padding: 0 120px 0 120px;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: beige;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+    font-size: 1.15rem;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    color: beige;
+}
+
+a{
+    text-decoration: none;
+}
