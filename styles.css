@@ -22,7 +22,7 @@ ul{
     list-style-type: none;
     
     font-size: 1.15rem;
-    margin: 0;
+    margin-left: auto;
     padding: 0;
     gap: 8px;
     color: beige;
@@ -30,4 +30,25 @@ ul{
 
 a{
     text-decoration: none;
+}
+
+.center{
+    display: flex;
+    background-color: #1f2937;
+    margin: 0;
+    border: 0;
+    padding: 0 120px 0 120px;
+}
+
+.awesome{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.left-center{
+
+}
+
+.right-center{
+    margin-right: 100%;
 }
