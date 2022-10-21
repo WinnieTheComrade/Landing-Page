@@ -56,8 +56,7 @@ h1{
 
 .description{
     font-size: 1.1rem;
-    color:rgb(127, 145, 127)
-    
+    color:rgb(127, 145, 127)   
 }
 
 
@@ -148,4 +147,47 @@ h1{
     flex-wrap:wrap;
     justify-content: flex-start;
     font-size: 1.2rem;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #213024;
+    margin: 0;
+    border: 0;
+    padding: 60px 120px 60px 120px;
+    
+
+}
+
+.quote-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(177, 184, 177);
+    min-width: 100%;
+    padding-top: 1.2em;
+}
+
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(146, 151, 146);
+    padding-bottom: 1.2em;
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
