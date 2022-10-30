@@ -7,14 +7,14 @@ body{
     background-color: #1f2937;
     margin: 0;
     border: 0;
-    padding: 0 120px 60px 120px;
+    padding: 0.5em 13em;
     justify-content: space-between;
 }
 
 .logo{
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 900;
     color: beige;
     
@@ -28,7 +28,7 @@ ul{
     font-size: 1.15rem;
     margin-left: auto;
     padding: 0;
-    gap: 8px;
+    gap: 22px;
     color: beige;
 }
 
@@ -36,12 +36,16 @@ a{
     text-decoration: none;
 }
 
+a:visited{
+    text-decoration: none;
+    color: white;
+}
 .center{
     display: flex;
     background-color: #1f2937;
     margin: 0;
     border: 0;
-    padding: 0 120px 40px 120px;
+    padding: 1em 13em;
 }
 
 .awesome{
@@ -81,6 +85,9 @@ h1{
     width: auto;
     height: 300px;
     border-radius: 15px 50px; 
+    border: 5px solid;
+    border-color: #34455c;
+
     
 }
 
@@ -90,7 +97,7 @@ h1{
     background-color: rgb(127, 145, 127);
     margin: 0;
     border: 0;
-    padding:60px 120px 60px 120px;
+    padding: 1em 10em;
     justify-content: center;
     align-items: center;
 }
@@ -128,6 +135,8 @@ h1{
     height: auto;
     border-radius: 30px ;
     margin-bottom: 1rem;
+    border: 5px solid;
+    border-color: honeydew;
 }
 
 .img3{
@@ -135,6 +144,8 @@ h1{
     height: auto;
     border-radius: 30px ;
     margin-bottom: 1rem;
+    border: 5px solid;
+    border-color: honeydew;
 }
 
 .img4{
@@ -142,6 +153,8 @@ h1{
     height: auto;
     border-radius: 30px ;
     margin-bottom: 1rem;
+    border: 5px solid;
+    border-color: honeydew;
 }
 
 .img5{
@@ -149,6 +162,8 @@ h1{
     height: auto;
     border-radius: 30px ;
     margin-bottom: 1rem;
+    border: 5px solid;
+    border-color: honeydew;
 }
 
 .text{
@@ -164,7 +179,7 @@ h1{
     background-color: #213024;
     margin: 0;
     border: 0;
-    padding: 60px 120px 60px 120px;
+    padding: 1.5em 13em;
     
 
 }
@@ -198,6 +213,7 @@ h1{
     border: 0;
     padding: 60px 120px 60px 120px;
     justify-content: center;
+    background-color: rgb(127, 145, 127);
 }
 
 .modal{
@@ -249,4 +265,15 @@ h1{
     border-color: white;
     border-radius: 8px;
     text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 13em;
+    background-color: #1f2937;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 700;
 }
