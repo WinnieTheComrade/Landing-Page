@@ -16,7 +16,7 @@ body{
     align-items: center;
     font-size: 1.8rem;
     font-weight: 900;
-    color: beige;
+    color: white;
     
 }
 ul{
@@ -29,7 +29,7 @@ ul{
     margin-left: auto;
     padding: 0;
     gap: 22px;
-    color: beige;
+    
 }
 
 a{
@@ -274,7 +274,7 @@ h1{
     justify-content: center;
     padding: 0.5em 13em;
     background-color: #1f2937;
-    font-size: 1.2rem;
+    font-size: 1 rem;
     color: white;
-    font-weight: 700;
+   
 }
